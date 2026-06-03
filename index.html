@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducAntar | Educación y Divulgación Científica Polares</title>
+    <meta name="description" content="Portal educativo sobre la Antártida. Divulgación científica, recursos pedagógicos y proyectos colaborativos para el aula.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons (CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo">
+                <span>❄️</span> EducAntar
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#divulgacion" class="nav-link">Divulgación</a>
+                <a href="#recursos" class="nav-link">Recursos</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+            </nav>
+
+            <div class="nav-controls">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Cambiar tema">
+                    <i data-lucide="sun" id="theme-icon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Menú">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Descubre los secretos del continente blanco</h1>
+                <p>EducAntar es una plataforma dedicada a inspirar y formar a la próxima generación de defensores del polo sur mediante recursos pedagógicos interactivos y divulgación de vanguardia.</p>
+                <div class="hero-cta">
+                    <a href="#recursos" class="btn btn-primary">
+                        Comenzar a aprender <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#divulgacion" class="btn btn-secondary">Leer el Blog</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <div class="hero-frame">
+                    <img src="assets/hero.png" alt="Majestuoso paisaje antártico con icebergs y auroras polares">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divulgación / Blog Section -->
+    <section class="divulgacion" id="divulgacion">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Divulgación Científica</span>
+                <h2 class="section-title">Historias desde el Fin del Mundo</h2>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="divulgacion-filters">
+                <button class="filter-btn active" data-category="todos">Todos</button>
+                <button class="filter-btn" data-category="Fauna">Fauna</button>
+                <button class="filter-btn" data-category="Clima">Clima</button>
+                <button class="filter-btn" data-category="Historia">Historia</button>
+            </div>
+
+            <!-- Blog Grid (Dynamic) -->
+            <div class="blog-grid" id="blog-grid">
+                <!-- Se inyecta dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos Educativos & Trivia Section -->
+    <section class="recursos" id="recursos" style="background-color: var(--bg-secondary);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Recursos en el Aula</span>
+                <h2 class="section-title">Materiales y Desafíos Didácticos</h2>
+            </div>
+
+            <div class="recursos-layout">
+                <!-- Left: Downloadable Resources -->
+                <div class="recursos-list">
+                    <h3 style="margin-bottom: 1.5rem; font-size: 1.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <i data-lucide="book-open" style="color: var(--accent-color);"></i> Guías y Descargables
+                    </h3>
+                    
+                    <div class="recurso-card">
+                        <div class="recurso-icon">
+                            <i data-lucide="file-text"></i>
+                        </div>
+                        <div class="recurso-info">
+                            <h4 class="recurso-title">Guía Didáctica: Ecosistemas Polares</h4>
+                            <p class="recurso-desc">Manual completo para docentes con actividades prácticas sobre fauna antártica. (PDF, 4.2 MB)</p>
+                        </div>
+                        <button class="recurso-download-btn" onclick="alert('Descargando Guía Didáctica: Ecosistemas Polares...')" aria-label="Descargar">
+                            <i data-lucide="download"></i>
+                        </button>
+                    </div>
+
+                    <div class="recurso-card">
+                        <div class="recurso-icon">
+                            <i data-lucide="map"></i>
+                        </div>
+                        <div class="recurso-info">
+                            <h4 class="recurso-title">Mapa Interactivo de Tratados y Bases</h4>
+                            <p class="recurso-desc">Infografía de alta resolución detallando las bases científicas y reclamos territoriales. (PNG, 8.5 MB)</p>
+                        </div>
+                        <button class="recurso-download-btn" onclick="alert('Descargando Mapa de Bases Antárticas...')" aria-label="Descargar">
+                            <i data-lucide="download"></i>
+                        </button>
+                    </div>
+
+                    <div class="recurso-card">
+                        <div class="recurso-icon">
+                            <i data-lucide="presentation"></i>
+                        </div>
+                        <div class="recurso-info">
+                            <h4 class="recurso-title">Diapositivas: Cambio Climático Global</h4>
+                            <p class="recurso-desc">Presentación lista para proyectar en clase sobre el rol regulador de la Antártida. (PPTX, 12 MB)</p>
+                        </div>
+                        <button class="recurso-download-btn" onclick="alert('Descargando Presentación sobre Cambio Climático...')" aria-label="Descargar">
+                            <i data-lucide="download"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right: Trivia Interactive Game -->
+                <div class="trivia-widget">
+                    <div class="trivia-container">
+                        <div class="trivia-header">
+                            <div class="trivia-title">
+                                🐧 <span>Desafío Trivia Antártica</span>
+                            </div>
+                            <div class="trivia-score" id="trivia-score">Puntaje: 0/0</div>
+                        </div>
+                        <div class="trivia-body" id="trivia-body">
+                            <!-- Inyectado dinámicamente -->
+                        </div>
+                        <div class="trivia-controls" id="trivia-controls">
+                            <!-- Inyectado dinámicamente -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section class="proyectos" id="proyectos">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Nuestros Proyectos</span>
+                <h2 class="section-title">Iniciativas en Acción</h2>
+            </div>
+
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <div class="proyecto-status">Activo</div>
+                    <h3 class="proyecto-title">Escuelas Polares</h3>
+                    <p class="proyecto-desc">Uniendo aulas de toda Latinoamérica con científicos destacados mediante videoconferencias en vivo directamente desde bases antárticas.</p>
+                    <div class="proyecto-meta">
+                        <span>Participantes: 45 Escuelas</span>
+                        <span>Frecuencia: Mensual</span>
+                    </div>
+                </div>
+
+                <div class="proyecto-card">
+                    <div class="proyecto-status">En desarrollo</div>
+                    <h3 class="proyecto-title">Científicos del Mañana</h3>
+                    <p class="proyecto-desc">Convocatoria nacional para que estudiantes de secundaria propongan proyectos de investigación. El ganador visitará una estación subantártica.</p>
+                    <div class="proyecto-meta">
+                        <span>Lanzamiento: Julio 2026</span>
+                        <span>Edades: 14-18 años</span>
+                    </div>
+                </div>
+
+                <div class="proyecto-card">
+                    <div class="proyecto-status">Activo</div>
+                    <h3 class="proyecto-title">Monitoreo de Krill Escolar</h3>
+                    <p class="proyecto-desc">Proyecto de ciencia ciudadana donde estudiantes procesan imágenes satelitales y datos abiertos para registrar el comportamiento de las biomasas.</p>
+                    <div class="proyecto-meta">
+                        <span>Plataforma: Web/App</span>
+                        <span>Datos: Abiertos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Modal View -->
+    <div class="modal" id="details-modal">
+        <button class="modal-close" id="modal-close" aria-label="Cerrar">
+            <i data-lucide="x"></i>
+        </button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <img id="modal-img" src="" alt="">
+                <div class="modal-header-overlay"></div>
+            </div>
+            <div class="modal-body">
+                <span class="modal-tag" id="modal-tag"></span>
+                <h2 class="modal-title" id="modal-title"></h2>
+                <div class="modal-date" id="modal-date"></div>
+                <div class="modal-text" id="modal-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo" style="margin-bottom: 1rem; display: inline-block;">
+                    <span>❄️</span> EducAntar
+                </a>
+                <p>Construyendo el puente educativo y de divulgación hacia el continente de la ciencia y la paz.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Explorar</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#divulgacion">Divulgación</a></li>
+                    <li><a href="#recursos">Recursos</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Contacto</h3>
+                <ul>
+                    <li>contacto@educantar.info</li>
+                    <li>Buenos Aires, Argentina</li>
+                    <li>Punta Arenas, Chile</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 EducAntar. Creado con fines de educación y conservación.</p>
+            <p>Tratado Antártico - Sistema del Tratado Antártico</p>
+        </div>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
