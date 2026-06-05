@@ -5,10 +5,10 @@ const blogArticles = [
         title: "Primer Concurso Artístico Literario para Niños: «Sueños Antárticos»",
         category: "Noticias",
         date: "04 de Junio, 2026",
-        excerpt: "Se desarrollaron las actividades del certamen escolar en homenaje al Profesor Julio C. Musso, fomentando la creación y conciencia sobre las actividades polares de Uruguay.",
+        excerpt: "Se desarrollaron las actividades del certamen escolar en el año 2024 en homenaje al Profesor Julio C. Musso, fomentando la creación y conciencia sobre las actividades polares de Uruguay.",
         image: "assets/concurso_ninos.png",
         content: `
-            <p>La Asociación Civil ANTARKOS organizó con éxito el <b>Primer Concurso Artístico Literario para Niños: «Sueños Antárticos»</b>, en homenaje al Profesor Julio C. Musso, pionero y fundador del Instituto Antártico Uruguayo.</p>
+            <p>La Asociación Civil ANTARKOS organizó con éxito en el año 2024 el <b>Primer Concurso Artístico Literario para Niños: «Sueños Antárticos»</b>, en homenaje al Profesor Julio C. Musso, pionero y fundador del Instituto Antártico Uruguayo.</p>
             <h3>Objetivo del Certamen</h3>
             <p>Este concurso tuvo como finalidad promover e incentivar en los más jóvenes el interés por las ciencias, la investigación y la importancia geopolítica y ambiental de la Antártida. Se buscó inspirar una nueva generación que reconociera los esfuerzos de Uruguay en el continente helado.</p>
             <h3>Categorías y Participación</h3>
