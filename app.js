@@ -60,7 +60,7 @@ const blogArticles = [
         category: "Historia",
         date: "03 de Mayo, 2026",
         excerpt: "La odisea de Amundsen, Scott y Shackleton. Hazañas que redefinieron los límites humanos.",
-        image: "https://images.unsplash.com/photo-1551244072-5d12893278ab?auto=format&fit=crop&w=800&q=80",
+        image: "assets/explorador_heroico.png",
         content: `
             <p>A principios del siglo XX, la Antártida era la última frontera inexplorada del planeta. En este contexto comenzó la llamada Edad Heroica de la exploración antártica, marcada por hazañas y tragedias legendarias.</p>
             <h3>La Conquista de 1911</h3>
