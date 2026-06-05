@@ -45,7 +45,7 @@ const blogArticles = [
         category: "Clima",
         date: "14 de Mayo, 2026",
         excerpt: "El derretimiento del hielo marino y cómo influye directamente en las corrientes oceánicas globales.",
-        image: "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80",
+        image: "assets/pinguinos_adelia.png",
         content: `
             <p>La capa de hielo de la Antártida contiene el 90% del hielo del planeta y aproximadamente el 70% del agua dulce de la Tierra. Este enorme volumen helado cumple un rol crucial en la regulación del clima del planeta entero.</p>
             <h3>El Efecto Albedo</h3>
