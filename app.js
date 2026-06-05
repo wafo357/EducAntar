@@ -21,7 +21,7 @@ const blogArticles = [
             <h3>Apoyo Institucional</h3>
             <p>El certamen contó con el valioso auspicio de la Biblioteca Nacional de Uruguay, junto al apoyo activo de APECS Uruguay, el Instituto Antártico Uruguayo (IAU) y la Unidad de Extensión de la Facultad de Ciencias de la Universidad de la República (Udelar).</p>
             <h3>Más información</h3>
-            <p>Puedes conocer más detalles, ver las obras premiadas y repasar las bases de futuras ediciones en la nota oficial del certamen en el sitio web de la <a href="https://www.antarkos.org.uy/" target="_blank" style="color: var(--accent-color); text-decoration: underline;">Asociación Civil ANTARKOS</a>.</p>
+            <p>Puedes conocer más detalles, ver las obras premiadas y repasar las bases de futuras ediciones en la nota oficial del certamen en el sitio web de la <a href="http://www.antarkos.org.uy/concurso2024.htm" target="_blank" style="color: var(--accent-color); text-decoration: underline;">Asociación Civil ANTARKOS</a>.</p>
         `
     },
     {
