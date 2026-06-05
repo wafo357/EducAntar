@@ -5,21 +5,21 @@ const blogArticles = [
         title: "Primer Concurso Artístico Literario para Niños: «Sueños Antárticos»",
         category: "Noticias",
         date: "04 de Junio, 2026",
-        excerpt: "Se abren las inscripciones para el certamen escolar en homenaje al Profesor Julio C. Musso, fomentando la creación y conciencia sobre las actividades polares de Uruguay.",
+        excerpt: "Se desarrollaron las actividades del certamen escolar en homenaje al Profesor Julio C. Musso, fomentando la creación y conciencia sobre las actividades polares de Uruguay.",
         image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80",
         content: `
-            <p>La Asociación Civil ANTARKOS se enorgullece en anunciar el lanzamiento del <b>Primer Concurso Artístico Literario para Niños: «Sueños Antárticos»</b>, en homenaje al Profesor Julio C. Musso, pionero y fundador del Instituto Antártico Uruguayo.</p>
+            <p>La Asociación Civil ANTARKOS organizó con éxito el <b>Primer Concurso Artístico Literario para Niños: «Sueños Antárticos»</b>, en homenaje al Profesor Julio C. Musso, pionero y fundador del Instituto Antártico Uruguayo.</p>
             <h3>Objetivo del Certamen</h3>
-            <p>Este concurso tiene como finalidad promover e incentivar en los más jóvenes el interés por las ciencias, la investigación y la importancia geopolítica y ambiental de la Antártida. Se busca inspirar una nueva generación que reconozca los esfuerzos de Uruguay en el continente helado.</p>
+            <p>Este concurso tuvo como finalidad promover e incentivar en los más jóvenes el interés por las ciencias, la investigación y la importancia geopolítica y ambiental de la Antártida. Se buscó inspirar una nueva generación que reconociera los esfuerzos de Uruguay en el continente helado.</p>
             <h3>Categorías y Participación</h3>
-            <p>La convocatoria está especialmente orientada a estudiantes de escuelas públicas de diversos niveles de Educación Básica Integrada (EBI), quienes podrán participar individualmente o en grupos en las siguientes disciplinas:</p>
+            <p>La convocatoria estuvo orientada a estudiantes de escuelas públicas de diversos niveles de Educación Básica Integrada (EBI), quienes participaron individualmente o en grupos en las siguientes disciplinas:</p>
             <ul>
                 <li><b>Poesía:</b> Composiciones inspiradas en la vida polar, los glaciares y la paz antártica.</li>
-                <li><b>Cuento corto:</b> Historias que imaginen exploraciones, descubrimientos o la vida diaria en las bases científicas.</li>
-                <li><b>Dibujo y Expresión Plástica:</b> Obras de arte con técnicas libres que ilustren los paisajes o la fauna austral.</li>
+                <li><b>Cuento corto:</b> Historias que imaginaron exploraciones, descubrimientos o la vida diaria en las bases científicas.</li>
+                <li><b>Dibujo y Expresión Plástica:</b> Obras de arte con técnicas libres que ilustraron los paisajes o la fauna austral.</li>
             </ul>
             <h3>Apoyo Institucional</h3>
-            <p>El certamen cuenta con el valioso auspicio de la Biblioteca Nacional de Uruguay, junto al apoyo activo de APECS Uruguay, el Instituto Antártico Uruguayo (IAU) y la Unidad de Extensión de la Facultad de Ciencias de la Universidad de la República (Udelar).</p>
+            <p>El certamen contó con el valioso auspicio de la Biblioteca Nacional de Uruguay, junto al apoyo activo de APECS Uruguay, el Instituto Antártico Uruguayo (IAU) y la Unidad de Extensión de la Facultad de Ciencias de la Universidad de la República (Udelar).</p>
         `
     },
     {
